@@ -1,0 +1,45 @@
+<html>
+  <head><title>Form</title></head>
+  <body style="margin:10%;background-color:aqua">
+
+<div style="background-color:yellow;border-radius:20px;padding:10%;">
+    <form action="https://formspree.io/f/xbjqjqoy" method="post">
+      <center><h1>Form</h1></center>
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="fname">
+<br><br>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lname">
+<br><Br>
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob">
+<br>
+<dl>
+  <dt><label for="gender">Gender:</label><br></dt>
+<dd><label for="Male">Male</label>
+<input type="radio" name="Male"></dd>
+
+<dd>
+  <label for="Female">Female</label>
+  <input type="radio" id="female" name="Female">
+</dd>
+</dl>
+
+<label for="feel">How do you feel after reading all that stuff?</label><br>
+<textarea id="feel" name="feel">yo!</textarea>
+<br><br>
+<label for="ultimate">Which trait would you like to develop?</label>
+<input list="traits">
+<datalist id="traits">
+  <option value="Self-reliance">
+    <option value="Self-control">
+      <option value="Grit">
+        <option value="Zest">
+</datalist>
+<br><br>
+<input type="button" value="Submit">
+<br>
+    </form>
+  </div>
+  </body>
+</html>
