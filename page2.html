@@ -1,35 +1,48 @@
 <html>
-  <head><title>Form</title></head>
-  <body style="margin:10%;background-color:aqua">
+  <head>
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap" rel="stylesheet">
 
-<div style="background-color:yellow;border-radius:20px;padding:10%;">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+
+  </head>
+  <body style="margin:10%;background-color:black">
+
+<div style="background-color:white;border-radius:20px;padding:10%;">
     <form action="https://formspree.io/f/xbjqjqoy" method="post">
-      <center><h1>Form</h1></center>
-<label for="fname">First Name:</label>
-<input type="text" id="fname" name="fname">
+      <hr>
+      <center><h1 style="font-family: 'Antonio', sans-serif; font-size:50">Form</h1></center>
+      <hr>
+      <br>
+<label for="fname" style="font-family: 'Poppins', sans-serif; font-size:40">First Name</label><br>
+<input type="text" id="fname" name="fname" style="height:45;width:100%">
 <br><br>
-<label for="lname">Last Name:</label>
-<input type="text" id="lname" name="lname">
+<label for="lname"style="font-family: 'Poppins';font-size:40;">Last Name</label><br>
+<input type="text" id="lname" name="lname" style="height:45;width:100%">
 <br><Br>
-<label for="dob">Date of Birth:</label>
-<input type="date" id="dob" name="dob">
+<label for="dob" style="font-family: 'Poppins';font-size:40" >Date of Birth</label>
+<br>
+<input type="date" id="dob" name="dob" style="height:45;width:50%">
 <br>
 <dl>
-  <dt><label for="gender">Gender:</label><br></dt>
-<dd><label for="Male">Male</label>
+  <dt><label for="gender" style="font-family: 'Poppins';font-size:40;">Gender</label><br></dt>
+<dd><label for="Male" style="font-size:27">Male</label>
 <input type="radio" name="Male"></dd>
 
 <dd>
-  <label for="Female">Female</label>
+  <label for="Female" style="font-size:27">Female</label>
   <input type="radio" id="female" name="Female">
 </dd>
 </dl>
 
-<label for="feel">How do you feel after reading all that stuff?</label><br>
-<textarea id="feel" name="feel">yo!</textarea>
+<label for="feel" style="font-family: 'Poppins';font-size:40;" >How do you feel after reading all that stuff?</label><br>
+<textarea id="feel" name="feel"style="height:60;width:100%"></textarea>
 <br><br>
-<label for="ultimate">Which trait would you like to develop?</label>
-<input list="traits">
+<label for="ultimate" style="font-family: 'Poppins';font-size:40;">Which trait would you like to develop?</label>
+<Br>
+<input list="traits" style="height:30;width:25%">
 <datalist id="traits">
   <option value="Self-reliance">
     <option value="Self-control">
