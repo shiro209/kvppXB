@@ -1,6 +1,16 @@
 <html>
   <head>
+    <style>
+      #kill:hover
+      {
+        background-image:url(download.gif)
+      }
+    </style>
     <title>Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap" rel="stylesheet">
 
@@ -17,10 +27,10 @@
       <hr>
       <br>
 <label for="fname" style="font-family: 'Poppins', sans-serif; font-size:40">First Name</label><br>
-<input type="text" id="fname" name="fname" style="height:45;width:100%">
+<input type="text" id="fname" name="fname" style="height:45;width:100%;font-size:26;font-family: 'Oxygen';">
 <br><br>
 <label for="lname"style="font-family: 'Poppins';font-size:40;">Last Name</label><br>
-<input type="text" id="lname" name="lname" style="height:45;width:100%">
+<input type="text" id="lname" name="lname" style="height:45;width:100%;font-size:26;font-family: 'Oxygen';">
 <br><Br>
 <label for="dob" style="font-family: 'Poppins';font-size:40" >Date of Birth</label>
 <br>
@@ -38,7 +48,7 @@
 </dl>
 
 <label for="feel" style="font-family: 'Poppins';font-size:40;" >How do you feel after reading all that stuff?</label><br>
-<textarea id="feel" name="feel"style="height:60;width:100%"></textarea>
+<textarea id="feel" name="feel"style="height:60;width:100%;font-size:26;font-family: 'Oxygen';"></textarea>
 <br><br>
 <label for="ultimate" style="font-family: 'Poppins';font-size:40;">Which trait would you like to develop?</label>
 <Br>
@@ -49,8 +59,10 @@
       <option value="Grit">
         <option value="Zest">
 </datalist>
-<br><br>
-<input type="button" value="Submit">
+<br><br><br>
+
+<center>
+<input id="kill" type="button" value="Submit" style="padding: 10px 30px; background-color: black; border-radius: 30px; color: white; border: none;font-family:dotum;height:100;width:75%;font-size:45;font-family:Satisfy;"></center>
 <br>
     </form>
   </div>
